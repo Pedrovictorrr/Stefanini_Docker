@@ -58,7 +58,6 @@ Isso irá:
   ```
 - Para rodar as migrations do Laravel manualmente, execute:
   ```bash
-  docker exec projetos-api php artisan migrate
+  docker exec projetos-api php artisan migrate --seed
   ```
-
 ---
