@@ -60,4 +60,11 @@ Isso irá:
   ```bash
   docker exec projetos-api php artisan migrate --seed
   ```
+
 ---
+
+## Coleção Postman da API
+
+Acesse a coleção Postman da API Laravel por este link:
+
+[https://www.postman.com/security-saganist-39110096/stefanini-api/collection/k6uyyij/projetos-api](https://www.postman.com/security-saganist-39110096/stefanini-api/collection/k6uyyij/projetos-api)
