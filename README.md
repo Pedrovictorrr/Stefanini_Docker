@@ -68,3 +68,15 @@ Isso irá:
 Acesse a coleção Postman da API Laravel por este link:
 
 [https://www.postman.com/security-saganist-39110096/stefanini-api/collection/k6uyyij/projetos-api](https://www.postman.com/security-saganist-39110096/stefanini-api/collection/k6uyyij/projetos-api)
+
+---
+
+## Testes Unitários da API Laravel
+
+Para rodar os testes unitários da API, utilize o comando abaixo:
+
+```bash
+docker exec projetos-api php artisan test
+```
+
+Os testes estão localizados na pasta `tests/` do projeto Laravel.
