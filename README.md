@@ -73,7 +73,8 @@ Isso irá:
   - URL: [https://stfiapi.pedrovfabreu.com.br](https://stfiapi.pedrovfabreu.com.br)
   - Usuário: `suporte@stefanini.com`
   - Senha: `suporte123`
-- **Monitoramento de Erros:** O projeto está integrado ao [Sentry](https://sentry.io/) para captura e monitoramento de erros.
+  - > No painel Filament é possível visualizar projetos, usuários, arquivos de log e exceções.
+- **Monitoramento de Erros:** O projeto está integrado ao [Sentry](https://stefanini-test.sentry.io) para captura e monitoramento de erros.
 
 ### Cliente Flutter
 
