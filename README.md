@@ -112,3 +112,13 @@ docker exec projetos-api php artisan test
 ```
 
 Os testes estão localizados na pasta `tests/` do projeto Laravel.
+
+---
+
+## Organização do Projeto (Scrum/Sprint)
+
+A organização das sprints e tarefas do teste foi realizada utilizando o GitHub Projects:
+
+- [Quadro do Projeto no GitHub Projects](https://github.com/users/Pedrovictorrr/projects/6)
+
+---
