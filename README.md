@@ -70,7 +70,7 @@ Isso irá:
 - **Deploy:** Realizado via [Laravel Forge](https://forge.laravel.com/) com URL de acesso: [https://stfiapi.pedrovfabreu.com.br](https://stfiapi.pedrovfabreu.com.br)
 - **Testes Automatizados:** Os testes unitários são executados automaticamente via GitHub Actions a cada commit na branch `main`.
 - **Painel Administrativo (Filament PHP):** Acesse o painel para visualizar logs e exceções:
-  - URL: [https://stfiapi.pedrovfabreu.com.br/admin](https://stfiapi.pedrovfabreu.com.br/admin)
+  - URL: [https://stfiapi.pedrovfabreu.com.br](https://stfiapi.pedrovfabreu.com.br)
   - Usuário: `suporte@stefanini.com`
   - Senha: `suporte123`
 - **Monitoramento de Erros:** O projeto está integrado ao [Sentry](https://sentry.io/) para captura e monitoramento de erros.
