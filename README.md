@@ -60,14 +60,6 @@ docker exec projetos-api php artisan migrate --seed
 
 - O arquivo `.env` da API é gerado automaticamente com as variáveis necessárias.
 - O banco de dados é inicializado automaticamente, mas é necessário rodar as migrations manualmente após subir os containers.
-- Para instalar dependências PHP manualmente, utilize o serviço `composer`:
-  ```bash
-  docker-compose run --rm composer install
-  ```
-- Para rodar novamente as migrations do Laravel manualmente, execute:
-  ```bash
-  docker exec projetos-api php artisan migrate --seed
-  ```
 
 ---
 
