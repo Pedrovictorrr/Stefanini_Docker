@@ -63,6 +63,14 @@ docker exec projetos-api php artisan migrate --seed
 
 ---
 
+## Mini vídeo explicativo
+
+Assista um vídeo rápido demonstrando o uso do projeto:
+
+[https://youtu.be/Y57sX9abaXw](https://youtu.be/Y57sX9abaXw)
+
+---
+
 ## Deploy e Monitoramento
 
 ### API Laravel
