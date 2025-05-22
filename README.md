@@ -43,20 +43,28 @@ Isso irá:
 - Subir o banco de dados MySQL em `localhost:3306`
 - Construir e rodar o cliente Flutter Web em `localhost:8080`
 
-### 4. Acesse a aplicação
+### 4. Rode as migrations do Laravel
+
+Após subir os containers, execute o comando abaixo para rodar as migrations e popular o banco de dados:
+
+```bash
+docker exec projetos-api php artisan migrate --seed
+```
+
+### 5. Acesse a aplicação
 
 - **Frontend:** [http://localhost:8080](http://localhost:8080)
 - **Backend (API):** [http://localhost:8000](http://localhost:8000)
 
-### 5. Observações
+### 6. Observações
 
 - O arquivo `.env` da API é gerado automaticamente com as variáveis necessárias.
-- O banco de dados é inicializado automaticamente.
+- O banco de dados é inicializado automaticamente, mas é necessário rodar as migrations manualmente após subir os containers.
 - Para instalar dependências PHP manualmente, utilize o serviço `composer`:
   ```bash
   docker-compose run --rm composer install
   ```
-- Para rodar as migrations do Laravel manualmente, execute:
+- Para rodar novamente as migrations do Laravel manualmente, execute:
   ```bash
   docker exec projetos-api php artisan migrate --seed
   ```
