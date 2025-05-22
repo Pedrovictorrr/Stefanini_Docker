@@ -63,6 +63,29 @@ Isso irá:
 
 ---
 
+## Deploy e Monitoramento
+
+### API Laravel
+
+- **Deploy:** Realizado via [Laravel Forge](https://forge.laravel.com/) com URL de acesso: [https://stfiapi.pedrovfabreu.com.br](https://stfiapi.pedrovfabreu.com.br)
+- **Testes Automatizados:** Os testes unitários são executados automaticamente via GitHub Actions a cada commit na branch `main`.
+- **Painel Administrativo (Filament PHP):** Acesse o painel para visualizar logs e exceções:
+  - URL: [https://stfiapi.pedrovfabreu.com.br/admin](https://stfiapi.pedrovfabreu.com.br/admin)
+  - Usuário: `suporte@stefanini.com`
+  - Senha: `suporte123`
+- **Monitoramento de Erros:** O projeto está integrado ao [Sentry](https://sentry.io/) para captura e monitoramento de erros.
+
+### Cliente Flutter
+
+- **Hospedagem:** O frontend Flutter está hospedado no Firebase Hosting.
+- **URL de acesso:** [https://stefanini.pedrovfabreu.com.br/](https://stefanini.pedrovfabreu.com.br/)
+- **Credenciais de Teste:**
+  - Usuário: `test@example.com`
+  - Senha: `password`
+- O frontend consome todas as rotas da API Laravel.
+
+---
+
 ## Coleção Postman da API
 
 Acesse a coleção Postman da API Laravel por este link:
